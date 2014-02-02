@@ -13,6 +13,9 @@
       "url": "http://github.com/mozilla/sweet.js/master/LICENSE.BSD"
     }
   ],
+  "browser": {
+    "./lib/runtime.js": "./lib/runtime-browser.js"
+  },
   "scripts": {
     "test": "grunt"
   },
